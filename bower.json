@@ -1,6 +1,6 @@
 {
-  "name": "crypto-js",
-  "version": "0.1.0",
+  "name": "browserify-cryptojs",
+  "version": "0.3.0",
   "dependencies": {
   }
 }

@@ -4,6 +4,12 @@ Port of CryptoJS for using with CommonJS.
 
 Original project: https://code.google.com/p/crypto-js/
 
+### Install
+
+    $ bower install browserify-cryptojs
+    
+    $ npm install browserify-cryptojs
+
 ### Usage with Browserify
 
 ```javascript

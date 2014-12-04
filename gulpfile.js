@@ -20,8 +20,8 @@
 				'./components/' + file,
 				'./src/' + file
 			])
-				.pipe(concat(file))
-				.pipe(gulp.dest('./build/'));
+				.pipe(concat('index.js'))
+				.pipe(gulp.dest('./'));
 		});
 	});
 })();

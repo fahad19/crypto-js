@@ -14,3 +14,11 @@ require('./path/to/crypto-js/components/evpkdf');
 require('./path/to/crypto-js/components/cipher-core');
 require('./path/to/crypto-js/components/aes');
 ```
+
+### Encryption/Decryption
+
+```javascript
+var passphrase = 'MyKeyHere';
+var encrypted = CryptoJS.AES.encrypt('ssshhhhh!', passphrase); // .toString() for just string
+var decrypted = CryptoJS.AES.decrypt(encrypted, passphrase); // .toString(CryptoJS.enc.Utf8) for getting back `ssshhhhh!`
+```

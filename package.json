@@ -1,13 +1,21 @@
 {
   "name": "browserify-cryptojs",
   "description": "CryptoJS in CommonJS",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "homepage": "https://github.com/fahad19/crypto-js",
   "author": {
     "name": "Fahad Ibnay Heylaal",
     "email": "contact@fahad19.com",
     "url": "http://fahad19.com"
   },
+  "keywords": [
+    "browserify",
+    "cryptojs",
+    "crypto",
+    "cipher",
+    "encrypt",
+    "decrypt"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/fahad19/crypto-js.git"
@@ -24,8 +32,8 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "devDependencies": {},
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-concat": "^2.4.2"
   }
